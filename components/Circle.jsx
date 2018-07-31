@@ -50,7 +50,7 @@ componentDidMount(){
             console.log('renderTimer: ' + renderTimer);
             centerElementToUpdate.style.backgroundImage="url(./Images/Drum/Lotto0" + renderTimer + ".png)";             
             
-            if(renderTimer > 527)
+            if(renderTimer > 627)
             {
               renderTimer = 110;
               //clearInterval(startRenderDrumAnimation);   
