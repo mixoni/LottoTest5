@@ -47,8 +47,9 @@ componentDidMount(){
 
         let startRenderDrumAnimation = setInterval(function(){
             renderTimer++;
-            centerElementToUpdate.style.backgroundImage="url(./Images/Drum/Lotto0" + renderTimer + ".png)";             
             console.log('renderTimer: ' + renderTimer);
+            centerElementToUpdate.style.backgroundImage="url(./Images/Drum/Lotto0" + renderTimer + ".png)";             
+            
             if(renderTimer > 527)
             {
               renderTimer = 110;
