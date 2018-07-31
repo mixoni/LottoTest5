@@ -1,0 +1,51 @@
+﻿body {
+    background: #555;
+    font: 16px/1 Helvetica, Arial, sans-serif;
+}
+
+.ball {
+    position: absolute;
+    left: -120px;
+    width: 90px;
+    height: 90px;
+    background: #004E99;
+    border-radius: 50%;
+    box-shadow: 20px 30px 30px -10px rgba(0,0,0,0.4);
+}
+
+    .ball > div {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+
+        .ball > div > span {
+            position: absolute;
+            left: 23px;
+            top: 14px;
+            width: 45px;
+            height: 45px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 45px;
+            font-size: 24px;
+            font-weight: bold;
+            background: #fff;
+        }
+    /* YOUR COLORS */
+    .ball.blue {
+        background: radial-gradient(circle at 20px 20px, #09f, #001);
+    }
+
+    .ball.red {
+        background: radial-gradient(circle at 20px 20px, #f30, #001);
+    }
+
+    .ball.green {
+        background: radial-gradient(circle at 20px 20px, #0f4, #001);
+    }
+
+    .ball.yellow {
+        background: radial-gradient(circle at 20px 20px, #fc0, #001);
+    }

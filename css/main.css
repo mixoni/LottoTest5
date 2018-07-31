@@ -1,0 +1,389 @@
+﻿body, .main-body {
+    background-color: #3f4d67;
+    overflow:hidden;
+}
+.title-header {
+    color: #4fc3f7;
+    font-size:6em;
+    margin-left:400px;
+}
+.center-circle {
+    width: 370px;
+    height: 370px;
+    left: 58%;
+    top: 14%;
+    text-indent: -9999px;
+    border: 2px solid #243759;
+    border-radius: 50%;
+    position: absolute;
+    border-style: solid;
+}
+.center-circle-outside {
+    width: 545px;
+    height: 545px;
+    /*left: 52.1%;
+    top: 3%;*/
+    text-indent: -9999px;
+    border: 2px solid #243759;
+    border-radius: 50%;
+    position: absolute;
+    border-style: solid;
+}
+.ball-circle {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    /*border: 2px solid #243759;*/
+    border-radius: 50%;
+    position: fixed;
+    background-color: #3f4d67;
+}
+[class*="ball"] {
+    border-radius: 50%;
+    position: fixed;
+}
+.react-countdown-clock {
+    padding-left: 33.75%;
+    padding-top: 9%;
+}
+.with-flag {
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url('../Images/greece-flag.gif');
+    width:100%;
+    height:100%;
+    clear:both;
+}
+/* like bootstrap */
+.col-md-12 {
+    width:100%
+}
+.col-md-4 {
+    min-width: 34%;
+    max-width: 34%;
+}
+.col-md-8 {
+    min-width: 66%;
+    max-width: 665%;
+}
+.row {
+    margin:5px;
+    border-radius:5px;
+}
+.row.row-1 {
+    min-height: 60px;
+    max-height: 60px;
+    background-color: #202d44;
+}
+.row.row-2 {
+    min-height: 120px;
+    max-height: 120px;
+    background-color: #202d44;
+}
+.row.row-2-custom {
+    min-height: 78px;
+    max-height: 78px;
+    background-color: #202d44;
+}
+.row.row-2-custom .countdown-timer {
+    margin-top:0px;
+    margin-right:10px;
+    padding:0px;
+}
+.row.row-2-custom .ball-game, .row.row-2-custom .ball-logo {
+    top: 6px;
+}
+    
+.row.row-3 {
+    min-height: 170px;
+    max-height: 170px;
+    background-color: #202d44;
+}
+.row.row-3-custom {
+    min-height: 205px;
+    max-height: 205px;
+    background-color: #202d44;
+}
+.row.row-4 {
+    min-height: 240px;
+    max-height: 240px;
+    background-color: #202d44;
+}
+.row.row-5 {
+    min-height: 300px;
+    max-height: 300px;
+}
+.row.row-6 {
+    min-height: 360px;
+    max-height: 360px;
+}
+.row.row-7 {
+    background-color: #202d44;
+    min-height: 420px;
+    max-height: 420px;
+}
+.row.row-8 {
+    min-height: 500px;
+    max-height: 500px;
+    background-color: #202d44;
+}
+.row.row-9 {
+    min-height: 570px;
+    max-height: 570px;
+    background-color: #202d44;
+}
+.row.row-10 {
+    min-height: 620px;
+    max-height: 620px;
+    background-color: #202d44;
+}
+
+.row.row-11 {
+min-height: 760px;
+max-height: 760px;
+background-color: #202d44;
+}
+.row.row-11-custom {
+    min-height: 665px;
+    max-height: 665px;
+    background-color: #202d44;
+}
+row-11-custom .ball-numbers-medium {
+    top:0px;
+    bottom:0px;
+}
+
+.row.row-12 {
+    min-height: 820px;
+    max-height: 820px;
+    background-color: #202d44;
+}
+
+.row.row-13 {
+    min-height: 880px;
+    max-height: 880px;
+    background-color: #202d44;
+}
+
+.row.row-14 {
+    min-height: 940px;
+    max-height: 940px;
+    background-color: #202d44;
+}
+
+.put-left {
+    float:left;
+}
+.put-right {
+    float:right;
+}
+.results-time {
+    float: left;
+    height: auto;
+    font-size: 5em;
+    display: block;
+    padding-top: 51px;
+    padding-left: 30px;
+    color: whitesmoke;
+    width: 1px;
+}
+.results-numbers {
+    /*position: absolute;*/
+    margin-left: 242px;
+}
+.countdown-timer {
+    font-size:4em;
+    color:whitesmoke;
+    padding:10px;
+    margin-top:12px;
+}
+[show-me="No"] {
+    opacity: 0;
+}
+[show-me="Yes"] {
+    opacity: 1;
+}
+.statistic-result {
+    color: #4ebaed;
+    padding-left: 2%;
+    padding-top: 9%;
+    padding-bottom: 7%;
+    font-size: 32px;
+}
+.statistic-result div:first-child {
+    width:75%;
+    float:left;
+}
+.statistic-result div:last-child {
+    width: 22%;
+    float: right;
+}
+/*.animation-uninques {
+    padding-top:80%;
+    position:absolute;
+}*/
+.animation-uninques span {
+    color: #4ebaed;
+    padding: 5px;
+    background: #202d44;
+    border-radius: 5px;
+    font-size: 1.6em;    
+}
+.animation-uninques span:first-child {
+    float: left;
+    text-align:left;
+    margin-left:10px;
+}
+.animation-uninques span:last-child {
+    float: right;
+    text-align: right;
+    margin-right:10px;
+}
+.col-md-6 {
+    min-width: 49%;
+    max-width: 49%;
+}
+/*.put-right .statistics-title {
+    text-align:left;
+}*/
+/*.put-right .statistics-result {
+    float:right;
+}*/
+/*.put-left .statistics-title {
+    text-align: right;
+}*/
+/*.put-left .statistics-result {
+    float: left;
+}*/
+.statistics-title-left {
+    text-align: left;
+    font-size: 1.7em;
+    color: whitesmoke;
+    /*margin-top: 20px;*/
+    margin-left:20px;
+}
+.statistics-result-left, .statistics-result-left div {
+    float: left;
+    position: relative;
+}
+.statistics-title-right {
+    text-align: right;
+    font-size: 1.7em;
+    color: whitesmoke;
+    /*margin-top:20px;*/
+}
+
+.statistics-result-right, .statistics-result-right div {
+    float: right;
+    position:relative;
+}
+
+.ball-game .ball-selected {
+    background: linear-gradient(to right, #0066ff 0%, #66ff66 20%, yellow 40%, green 60%, red 80%, blue 100%);
+    background-image: linear-gradient(330deg, transparent 50%, #FF8100 50%), 
+                      linear-gradient(300deg, transparent 50%, #FF5800 50%), 
+                      linear-gradient(270deg, transparent 50%, #FF3BA7 50%), 
+                      linear-gradient(240deg, transparent 50%, #CC42A2 50%), 
+                      linear-gradient(210deg, transparent 50%, #9f49ac 50%), 
+                      linear-gradient(180deg, transparent 50%, #476EAF 50%), 
+                      linear-gradient(150deg, transparent 50%, #179067 50%), 
+                      linear-gradient(120deg, transparent 50%, #50B517 50%), 
+                      linear-gradient(90deg, transparent 50%, #9ED110 50%), 
+                      linear-gradient(60deg, transparent 50%, #EDE604 50%), 
+                      linear-gradient(30deg, transparent 50%, #FFCC00 50%), 
+                      linear-gradient(0deg, transparent 50%, #FEAC00 50%);
+    /*background-clip: content-box, content-box, content-box, content-box, content-box, content-box, padding-box, padding-box, padding-box, padding-box, padding-box, padding-box;*/
+}
+.ball-game .ball-inner-circle {
+    margin-left: 5px !important;
+    width: 85% !important;
+    height: 85% !important;
+    margin-top: 5.9px !important;
+    border:none;
+}
+.ball-game .ball-circle-number {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #1c283d;
+    border: none;
+    margin: 0;
+    font-size: 2.2em;
+    font-weight: bold;
+    color: whitesmoke;
+}
+.ball-game .ball-circle-number span {
+    margin-top:9px;
+}
+.center-circle div.center-ball-animation {
+    color: #243759;
+    width: 150px;
+    height: 150px;
+    /*margin-top: 86px;
+    margin-left: 80px;*/
+    font-size: 6em;
+    text-indent: 1px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    line-height: 150px;
+    vertical-align: middle;
+    -webkit-animation: ballToDown 5s 1; /* Safari 4.0 - 8.0 */
+    -webkit-animation-direction: alternate; /* Safari 4.0 - 8.0 */
+    animation: ballToDown 5s 1;
+    animation-direction: alternate;
+    z-index:100;
+    opacity:0;
+}
+.center-circle div.center-ball-animation-finished-text {
+    color: #243759;
+    width: 200px;
+    height: 100px;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-size: 6em;
+    text-indent: 1px;
+    text-align: center;
+    background-color: whitesmoke;
+    border-radius: 10%;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+/* HD Resolution - 1280 x 720 */
+@media screen and (min-height: 720px) {   
+    .ball-logo, .ball-game {
+        left: 0px;
+        margin-left: 1%
+    }
+}
+
+@media screen and (min-height: 1080px) {
+    .row.row-9 {
+        min-height: 660px;
+        max-height: 660px;
+    }
+    .row.row-10 {
+        min-height: 710px;
+        max-height: 710px;
+    }
+    .animation-uninques {
+        padding-top:600px;
+    }
+    .col-md-8 {
+        min-width: 60%;
+        max-width: 60%;
+    }
+    .col-md-4 {
+        min-width: 40%;
+        max-width: 40%;
+    }
+    .row.row-3-custom {
+        min-height: 231px;
+        max-height: 231px;
+    }
+    .row-3-custom .results-numbers {
+        margin-left: 421px;
+        padding-top: 11px
+    }
+}
