@@ -250,8 +250,7 @@ Animation = () => {
     for(let i = 0;i < numberOfBall; i++) {
         newAngles.push(newAngle);
         newAngle = newAngle - spc;
-        this.setState({angle: newAngle}, () => {            
-        }); 
+        this.setState({angle: newAngle}); 
     }
        
    this.setState({angles:newAngles}, () => {
@@ -263,8 +262,7 @@ Animation = () => {
     radiusByElement += (radiusSatByElement + 10);
     this.setState({,
         radius:radiusByElement
-        }, () => {
-    });   
+        });   
 
     initialLoop = setInterval(function() {
         $this.Loop(false);
